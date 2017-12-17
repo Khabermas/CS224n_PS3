@@ -39,6 +39,17 @@ Then the program proceeds to the test set -- and 'freezes'.  Python continues to
 The program can easily be aborted by closing the terminal window.  Anything that happens during that final aberrant phase is not recorded in the standard log.
 
 
+## **3. GRU models**
+
+Coded this.  Ran learning curves for RNN & GRU models with and without gradient clipping.  Generated .png images that will later be discussed in this README.  
+
+Following 3(f) ran NER model from question 2 using GRU cell ( python q2_rnn.py train -c gru ).
+Training ran, with some fits and starts, and not improving much after the 5th or 6th epoch -- then generated a process killed as it started the 9th epoch.  Another mystery to be explored.
+
+
+
+
+
 
 
 
